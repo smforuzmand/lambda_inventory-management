@@ -10,10 +10,10 @@ public class Run {
 
     public static void main(String[] args) {
 
-        methodDemo(products, findByProductNameStartB, print);
-        methodDemo(products, findByStock0, print);
-        methodDemo(products, dobleconditionactionabove100Below150, print);
-        methodDemo(products,chargeUpThePrice,null);
+        //methodDemo(products, findByProductNameStartB, print);
+        //methodDemo(products, findByStock0, print);
+        //methodDemo(products, findDoubleConditionActionAbove100Below150, print);
+        methodDemo(products,chargeUpThePrice,print);
 
     }
 
