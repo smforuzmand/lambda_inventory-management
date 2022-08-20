@@ -48,11 +48,11 @@ public class Application {
     public static Action print = p -> System.out.println(p);
 
 
-    public static void methodDemo(List<Product> productList, Conditional filter, Action action) {
+    public static void methodDemo(List<Product> productList, Conditional condition, Action action) {
 
         for (Product p :
                 productList) {
-            if (filter.test(p)) {
+            if (condition.test(p)) {
                 action.execute(p
                 );
             }
